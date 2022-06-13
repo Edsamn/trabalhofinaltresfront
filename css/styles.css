@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+img {
+    height: 624.5px;
+    width: 600px;
+    object-fit: fill;
+    position: absolute;
+    display: flex;
+}
+
+.inputs-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.inputsColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputsRowMsg {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs {
+    padding-bottom: 30px;
+}
+
+
+
+.btn-container  {
+    text-align: center;
+    display: flex;
+    height: 30px;
+    cursor: pointer;
+    align-items : center;
+    justify-content : center;
+}
+
+.btn {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    color: grey;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.container-msg {
+    margin-top: 10%;
+    margin-left: 22%;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-bottom: 5px;
+}
+
+.msg {
+    padding-bottom: 15px;
+}
+
+hr {
+    width: 100%;
+    display: flex;
+}
+
+#errorMsg {
+    color: rgb(214, 28, 28);
+}
+
+.container-buttons-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table-button-edit {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(43, 148, 39);
+    text-align: center;
+    cursor: pointer;
+    width: 60px;
+    height: 27px;
+}
+
+.table-button-delete {
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(218, 36, 36);
+    text-align: center;
+    cursor: pointer;
+    width: 60px;
+    height: 27px;
+    margin-left: 5px;
+}
